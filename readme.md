@@ -6,7 +6,7 @@
   git config --global user.name "Your Name"
 ```
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ## Initialize github in a folder
 
@@ -17,7 +17,7 @@ git init
 
 ```
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Get the repository / project / folder git status
 
@@ -27,37 +27,37 @@ git init
 git status 
 ```
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ## Track files within a repository / folder using git (git staging)
 
 ```
 # git add
-git add <image-1.png>
+git add <images/image-1.png>
 
 # to view the added / staged file use
 git status
 
 ```
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 ### A screenshot of the github staged / unstaged changes 
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ## Staging all files
 
 ### To discovery how to stage all files once use:
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ```
 # stages all files
 git add -A
 ```
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 # Commit our changes
 ```
@@ -66,7 +66,7 @@ git add -A
 git commit -m "learnt github"
 ```
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 # An Introduction to Github
 
@@ -76,15 +76,15 @@ We go to github.com and create a repository with the name learn-git-today
 
 - Go to your repositories
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 - click on new repository
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 - create the repository
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 - push the local changes to github (remote)
 ```
@@ -92,7 +92,7 @@ git remote add origin <url>
 git push -u origin main
 ```
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
 If git (local) hasn't yet been authorized to access github (remote). It shall prompt you for authorization
 
@@ -100,7 +100,7 @@ If git (local) hasn't yet been authorized to access github (remote). It shall pr
 
 We need to stage all files again before commit
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 Finally commit all changes
 
